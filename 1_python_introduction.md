@@ -15,39 +15,41 @@ Created by **Guido van Rossum** and released in **1991**, Python supports multip
 ## Example:
 ```python
 print("Hello, Python!")
+```
 #### ✅ Output:
 ```python
 print("Hello, Python!")
-
+```
 
 ---
 
 ### 💻 `2_input_output.py`
 
-```python
+
 # Input and Output in Python
 
 # Definition:
-# input(): Used to take user input (returns a string)
-# print(): Used to display output on the screen
+- input(): Used to take user input (returns a string)
+- print(): Used to display output on the screen
 
 # Rules:
-# - input() always returns a string. Convert it using int(), float() if needed.
-# - print() can output text, variables, or expressions.
+ - input() always returns a string. Convert it using int(), float() if needed.
+ - print() can output text, variables, or expressions.
 
 # Examples:
-
 # Taking input from the user
 name = input("Enter your name: ")
 age = int(input("Enter your age: "))
 height = float(input("Enter your height in meters: "))
 
 # Output using print()
+```
 print("Hello,", name)
 print("You are", age, "years old.")
 print("Your height is", height, "meters.")
-
+```
 # Output formatting
+
 print(f"{name} is {age} years old and {height} meters tall.")
 
 # Comments in Python
@@ -60,19 +62,18 @@ print(f"{name} is {age} years old and {height} meters tall.")
 # - Multi-line comments: enclosed in triple quotes (''' or """)
 
 # Example:
-
+```
 # This is a single-line comment
 print("Hello")  # This is an inline comment
-
-"""
+```
+```
 This is a multi-line comment
 that spans across multiple lines.
 Used for documentation or explanations.
-"""
-
+```
 # Output:
-# Hello
-
+```# Hello
+```
 # Python Variables
 
 ## Definition:
